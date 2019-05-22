@@ -149,6 +149,22 @@ void enableLog();
 void disableLog();
 ```
 
+You will see a log like this:
+```
+D/MarusyaObjLoader: ***********************************************************************************
+D/MarusyaObjLoader: Start parsing -> obj: /storage/emulated/0/jni_test/luxury_house_interior.obj, mtl: /storage/emulated/0/jni_test/luxury_house_interior.mtl
+D/MarusyaObjLoader: End parsing -> /storage/emulated/0/jni_test/luxury_house_interior.obj
+D/MarusyaObjLoader: shapes size -> 116
+D/MarusyaObjLoader: materials size -> 25
+D/MarusyaObjLoader: vertices size -> 390021
+D/MarusyaObjLoader: normals size -> 392763
+D/MarusyaObjLoader: texcoords size -> 130796
+D/MarusyaObjLoader: colors size -> 390021
+D/MarusyaObjLoader: indices size -> 773121
+D/MarusyaObjLoader: Time to parse -> 1364 ms
+D/MarusyaObjLoader: ***********************************************************************************
+```
+
 ## Performance
 
 For the performance tests were read 50 3-D models of .obj format. It was done using pure Java and JNI. For pure Java was used this cool library [https://github.com/javagl/Obj](https://github.com/javagl/Obj). The table below shows gain in speed for devices with different power when reading 3-D models of .obj format using pure Java and JNI.
