@@ -143,12 +143,6 @@ ResultModel - an object which contains shapes, materials, error and warning mess
 void enableLog();
 ```
 
-### Method
-
-```java
-void disableLog();
-```
-
 You will see a log like this:
 ```
 D/MarusyaObjLoader: ***********************************************************************************
@@ -163,6 +157,12 @@ D/MarusyaObjLoader: colors size -> 390021
 D/MarusyaObjLoader: indices size -> 773121
 D/MarusyaObjLoader: Time to parse -> 1364 ms
 D/MarusyaObjLoader: ***********************************************************************************
+```
+
+### Method
+
+```java
+void disableLog();
 ```
 
 ## Performance
